@@ -8,7 +8,7 @@
 2메가 자랑갤 - 
 부럼순 (buromsoon)
 
-디비 스키마
+DB 스키마..
 
 인덱스 idx int ai pk
 내용 content varchar(80) = 제목 (40자) 제목에 들어갈 때는 글자수 제한
