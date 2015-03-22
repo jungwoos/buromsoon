@@ -13,8 +13,11 @@
 		* 아이디 userid varchar(50) 
 		* 비밀번호 userpw varchar(50) OLD_PASSWORD 
 		* 업로드일자 regdate datetime 
-		* 사진 업로드 upload_file 데이터타입? 인물사진 업로드 금지 - 초상권 문제. 용량 2메가바이트 이하 혹은 화소 떨어뜨리는       방법 구현
-
+		* 사진 업로드1 file_name_0 varchar(100) 인물사진 업로드 금지 - 초상권 문제. 용량 2메가바이트 이하 && jpg, 		  jpeg, gif, png 확장자 아닌 파일 업로드 불가.
+		* (추후 확장시 추가할)사진 업로드2 file_name_1(100)
+		* 임시 사진 저장 file_copied_0 varchar(100)
+		* (추후 확장시 추가할)임시 사진 저장 file_copied_1 varchar(100)
+		* 추천 recommend int(10) 두 사진 중 하나를 택했을 때 + 1. 그래야 나중에 정렬할 수 있지 않을까?
 	* 자랑하기, 평가하기 버튼 생성.
 	* 로그인 불필요. 수정 불가. 삭제 필요.
 	* 각 자랑갤러리에 "이 프로젝트 만든 게 자랑" 식으로 업로드.
