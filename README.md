@@ -5,6 +5,7 @@
 		* 2메가 자랑소 
 		* 2메가 자랑갤 
 		* 부럼순 (buromsoon)
+	* URL: http://jeb25mm.dothome.co.kr/buromsoon/board/index.php
 
 	* DB명 - buromsoon.
 	* Table명 - buromsoon_board.
